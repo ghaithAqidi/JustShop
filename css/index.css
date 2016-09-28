@@ -1,0 +1,67 @@
+div.header{
+    position: absolute;
+    width: 100%;
+    background-color: beige;
+    height: 20%;
+
+}
+
+.titleContainer {
+    float: left;
+    background-color: beige;
+
+}
+
+.headerTitle {
+    padding-left: 10%;
+    padding-top: 20px;
+}
+
+#pageBody {
+    width: 100%;
+    height: 70%;
+    top:20%;
+    position: absolute;
+    background-image: url("../source/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#pageBody .searchContainer {
+    position: absolute;
+    margin:auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+    width: 300px;
+    height: 100px;
+}
+
+.navigationContainer {
+    position: relative;
+    float: right;
+    margin-right: 5%;
+
+}
+
+#footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: beige;
+}
+
+input.searchInput {
+    border: 1px solid #ccc;
+    width: 70%;
+    height: 25%;
+    font-size: 15px;
+}
+
+button.searchButton{
+    font-size: 15px;
+}
