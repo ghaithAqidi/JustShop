@@ -1,3 +1,8 @@
+body {
+    font-family: "Georgia, serif";
+}
+
+
 div.header{
     position: absolute;
     width: 100%;
@@ -9,6 +14,7 @@ div.header{
 .titleContainer {
     float: left;
     background-color: beige;
+    width: 15%;
 
 }
 
@@ -64,4 +70,20 @@ input.searchInput {
 
 button.searchButton{
     font-size: 15px;
+    background-color: beige;
+    color: black;
+}
+
+div.postCodeInfoContainer{
+    left: 10%;
+    position: relative;
+    width: 80%;
+    margin-top:5%;
+}
+
+label.postCodeInfo {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
 }
