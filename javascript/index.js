@@ -20,4 +20,18 @@ $(document).ready(function(){
             postCodeInfo.text("Insert a valid post number");
         }
     });
+
+    var config = {
+        apiKey: "AIzaSyArgRm6S883CA6JXm0NJrCZLtbJTbaiVYE",
+        authDomain: "just-shop.firebaseapp.com",
+        databaseURL: "https://just-shop.firebaseio.com",
+        storageBucket: "",
+        messagingSenderId: "478321924523"
+    };
+    firebase.initializeApp(config);
+    // Get a reference to the storage service, which is used to create references in your storage bucket
+    var storage = firebase.storage();
+    var storageRef = storage.ref();
+
+
 });
